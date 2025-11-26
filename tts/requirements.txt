@@ -1,0 +1,17 @@
+# ==============================================
+# Amharic TTS Training Dependencies
+# ==============================================
+# IMPORTANT: TTS library requires Python 3.9-3.11
+# This project is designed to run on RunPod with
+# the "RunPod PyTorch 2.1" template (has Python 3.10)
+#
+# On RunPod, install with:
+#   pip install -r requirements.txt
+# ==============================================
+
+TTS>=0.22.0
+torch
+transformers
+pandas
+scipy
+tensorboard
